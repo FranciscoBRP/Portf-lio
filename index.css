@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+.actor-regular {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+button {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#welcome {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons img {
+    
+    width: 45px;
+    margin: 0 10px;
+}
+
+#about-me {
+    display: none;
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    #welcome h1 {
+        font-size: 25px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+p{
+    font-size: 2.2em;
+}
+
+h2{
+    font-size: 2.2em;
+}
+#fundo{
+background-image: url(hacker-background-sok2xwbpbc7mftxb.jpg);
+}
